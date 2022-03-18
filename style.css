@@ -1,0 +1,89 @@
+body {
+  background-color: #F4F5F7;
+}
+
+a {
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.breadcrumb {
+  color: #000;
+  font-weight: 600;
+  background-color: #F4F5F7;
+  padding-left: 0;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+  content: ">";
+  color: #000;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.btn-add {
+  background-color: #0D28A6;
+  color: #FFF;
+}
+
+.btn-add:hover {
+  color: #FFF;
+  transform: scale(1.1);
+}
+
+.btn-outline {
+  border-color: #0D28A6;
+  color: #0D28A6;
+  font-weight: bold;
+}
+
+.btn-outline:hover {
+  color: #0D28A6;
+  transform: scale(1.1);
+}
+
+.btn-outline.active {
+  background-color: #CFD4ED;
+}
+
+.card {
+  padding: 2em 1em;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+}
+
+h5.card-title {
+  font-weight: bold;
+}
+
+.btn-delete {
+  color: #FA2C5A;
+  font-weight: bold;
+  border-color: #FA2C5A;
+  width: 100%;
+}
+
+.btn-delete:hover {
+  color: #FA2C5A;
+  transform: scale(1.1);
+}
+
+.btn-edit {
+  color: #FFF;
+  background-color: #5CB85F;
+  font-weight: bold;
+  border-color: #5CB85F;
+  width: 100%;
+}
+
+.btn-edit:hover {
+  color: #FFF;
+  transform: scale(1.1);
+}
