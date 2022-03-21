@@ -23,34 +23,34 @@ p {
   font-weight: 300;
 }
 
-.kotak {
+.container-list-car {
   width: 1100px;
-  height: 1500px;
   background-color: #e5e5e5;
   padding-left: 25px;
   padding-top: 27px;
+  padding-right: 24px;
   margin: auto;
 }
 
-.kotak .btn-group button {
+.container-list-car .btn-group button {
   font-size: 14px;
 }
 
-.list-car {
+span.list-car {
   color: black;
   font-size: 20px;
   font-weight: 700;
+  margin-bottom: 24px;
+  margin-top: 27px;
 }
 
-.btn {
-  margin-right: 28px;
-  margin-top: 24px;
-}
 .btn.btn-primary {
   background-color: #0d28a6;
   border-radius: 2px;
   font-weight: 700;
   font-size: 14px;
+  height: 36px;
+  width: 142px;
 }
 
 .btn.btn-outline-primary {
@@ -59,6 +59,7 @@ p {
   border-radius: 2px;
   font-weight: 700;
   background-color: white;
+  margin-right: 16px;
 }
 
 .btn.btn-outline-primary:hover {
@@ -87,7 +88,7 @@ p {
   display: flex;
   justify-content: center;
   margin-top: 24px;
-  margin-bottom: 16px;
+  margin-bottom: 47px;
 }
 
 .card .card-body h6 {
@@ -95,7 +96,11 @@ p {
 }
 
 .card .card-body .btn-group button img {
-  padding: 0 5px;
+  padding: 0 7px;
+}
+
+.card .card-body p.card-text img {
+  padding-right: 9.5px;
 }
 
 .btn.btn-danger {
@@ -103,11 +108,24 @@ p {
   height: 48px;
   background-color: white;
   color: red;
+  font-weight: 700;
+  padding: 8px 12px;
+  margin-right: 16px;
 }
-
+.btn.btn-danger:hover {
+  background-color: white;
+  color: red;
+}
 .btn.btn-success {
   width: 143.5px;
   height: 48px;
+  background-color: #5cb85f;
+  color: white;
+  font-weight: 700;
+  padding: 8px 12px;
+}
+
+.btn.btn.btn-success:hover {
   background-color: #5cb85f;
   color: white;
 }
